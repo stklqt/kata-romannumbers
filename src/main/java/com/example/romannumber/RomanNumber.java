@@ -1,13 +1,13 @@
-package com.example.romannumber.demo;
+package com.example.romannumber;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class RomanNumber {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(RomanNumber.class, args);
     }
 
 }
