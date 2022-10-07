@@ -46,12 +46,7 @@
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>${junit.jupiter.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
+            <artifactId>junit-jupiter</artifactId>
             <version>${junit.jupiter.version}</version>
             <scope>test</scope>
         </dependency>
@@ -98,7 +93,13 @@
             <artifactId>junit-platform-surefire-provider</artifactId>
             <version>${junit-platform-surefire-provider.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.tngtech.junit.dataprovider</groupId>
+            <!--<artifactId>junit-dataprovider</artifactId>-->
+            <artifactId>junit-jupiter-dataprovider</artifactId>
+            <version>2.9</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
