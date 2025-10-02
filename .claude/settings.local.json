@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout:*)",
+      "Bash(./mvnw clean test)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
